@@ -1,4 +1,4 @@
-package com.acmeapp;
+package com.acme.app;
 
 import android.app.Application;
 
