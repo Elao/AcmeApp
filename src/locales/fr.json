@@ -1,0 +1,12 @@
+{
+    "common": {
+        "hello": "Bonjour !",
+    },
+    "screen": {
+        "login": "Connexion",
+        "logout": "Déconnexion",
+        "home": "Accueil",
+        "info": "À propos",
+        "profile": "Mon profil"
+    }
+}
