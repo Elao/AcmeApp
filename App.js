@@ -8,6 +8,7 @@ export default class App extends Component {
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
+      backgroundColor: '#ffffff'
     },
     infos: {
       textAlign: 'center',
