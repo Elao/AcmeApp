@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -23,6 +22,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		F49B44EB20304976917A9A21 /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F295C9CD398A461FAFEEED6E /* libReactNativeConfig.a */; };
+		5C3C090C65CB4AD09064C4C9 /* acmeIcon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B94DA59DBBF4F539792ACBA /* acmeIcon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,6 +290,7 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		F295C9CD398A461FAFEEED6E /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
+		7B94DA59DBBF4F539792ACBA /* acmeIcon.ttf */ = {isa = PBXFileReference; name = "acmeIcon.ttf"; path = "../assets/fonts/acmeIcon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,6 +484,7 @@
 				00E356EF1AD99517003FC87E /* AcmeAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				BDBE3B7A1F9A1CAA00E3EF30 /* Recovered References */,
+				D994014F1EA84D9DAFBE4538 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -521,6 +523,15 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		D994014F1EA84D9DAFBE4538 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7B94DA59DBBF4F539792ACBA /* acmeIcon.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -876,6 +887,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5C3C090C65CB4AD09064C4C9 /* acmeIcon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
